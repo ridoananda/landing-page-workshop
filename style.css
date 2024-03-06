@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+.brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.brand span {
+  color: #561C24;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  background: url(https://img.theculturetrip.com/450x/smart/wp-content/uploads/2018/05/coffee-3392168_1280-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.button-primary {
+  background: #561C24;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 25px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 3rem;
+}
+
+.logo {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+.image {
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  transform: rotateY(180deg);
+}
+
+.image img {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  bottom: 8rem;
+  right: 23%;
+  transform: translateX(20%);
+}
+
+.content {
+  position: absolute;
+  top: 60%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h4 {
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 65px;
+  margin: 20px 0px 20px;
+}
+
+h3 {
+  font-size: 35px;
+  width: 550px;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #191919;
+}
+
+.about-me {
+  width: 1130%;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me img {
+  height: auto;
+  width: 430px;
+  border-radius: 10px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  border-bottom: 1px solid red;
+}
+
+.about-text p {
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+
+footer {
+  padding: 1px;
+  background-color: #34495e;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.icon a i {
+  font-size: 2em;
+  color: orange;
+  opacity: 0.9;
+}
+
+.icon a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 8rem;
+}
+.grid-item {
+  background-color: white;
+  text-align: left;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item1 {
+  padding-right: 7px;
+  text-align: left;
+}
+
+.gridhead h5 {
+  font-size: 30px;
+}
+
+.gridhead1 h5 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.boxmodel {
+  padding: 5rem;
+  background-color: #866363;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  margin-right: 1px;
+  padding-right: 7rem;
+  width: 700px;
+  height: 300px;
+  background-color: #505050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px;
+}
+
+.boxtext h2 {
+  padding-left: 5px;
+  padding-top: 2rem;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.boxtext p {
+  padding-left: 7px;
+  width: 75%;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #00ff15;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav {
+  margin: 30px 0;
+}
+
+.footernav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.footernav ul li a {
+  color: white;
+  margin: 20px;
+
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+  opacity: 1;
+}
