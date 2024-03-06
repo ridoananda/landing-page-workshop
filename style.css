@@ -103,13 +103,37 @@ nav ul li a:hover {
 
 .proposisi .row {
   display: flex;
-  padding: 4rem 0;
+  padding: 7rem 4rem;
   justify-content: center;
   gap: 4rem;
 }
+.proposisi .row .container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.proposisi .row .container-text .text {
+  margin-top: 2rem;
+  color: #555555;
+  line-height: 1.6rem;
+}
+.proposisi .row .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.proposisi .row .title span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #561c24;
+}
 .proposisi img {
-  width: 38%;
-  height: 38%;
+  width: 40%;
+  height: 100%;
+  border-radius: 4px;
 }
 
 .about {
