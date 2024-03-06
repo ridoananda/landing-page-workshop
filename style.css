@@ -55,12 +55,17 @@
   width: 100%;
   text-align: center;
 }
+.content .text {
+  line-height: 1.6rem;
+  margin-bottom: 0.8rem;
+}
 
 .button-primary {
   background: #561c24;
   color: white;
-  padding: 0.6rem 1rem;
+  padding: 0.4rem 1rem;
   border-radius: 25px;
+  font-weight: bold;
 }
 
 nav {
