@@ -102,10 +102,13 @@ nav ul li a:hover {
 }
 
 .proposisi .row {
+  background: #806444;
   display: flex;
-  padding: 7rem 4rem;
+  color: #eaeaea;
+  padding: 7rem 8rem;
   justify-content: center;
-  gap: 4rem;
+  gap: 5rem;
+  margin-top: 3rem;
 }
 .proposisi .row .container-text {
   display: flex;
@@ -114,7 +117,8 @@ nav ul li a:hover {
 }
 .proposisi .row .container-text .text {
   margin-top: 2rem;
-  color: #555555;
+  color: #eaeaea;
+  letter-spacing: 0.08rem;
   line-height: 1.6rem;
 }
 .proposisi .row .title {
