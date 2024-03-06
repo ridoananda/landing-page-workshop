@@ -61,7 +61,7 @@
 }
 
 .button-primary {
-  background: #561c24;
+  background: #806444;
   color: white;
   padding: 0.4rem 1rem;
   border-radius: 25px;
@@ -73,7 +73,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem 3rem;
-  background-color: #967a59;
+  background-color: #806444;
 }
 
 .logo {
@@ -87,6 +87,7 @@ nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 10px 25px;
+  font-weight: bold;
 }
 
 nav ul li a {
@@ -100,37 +101,15 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
-.image {
-  width: 50%;
-  height: 90%;
-  position: absolute;
-  bottom: 0;
-  right: 0%;
-  transform: rotateY(180deg);
+.proposisi .row {
+  display: flex;
+  padding: 4rem 0;
+  justify-content: center;
+  gap: 4rem;
 }
-
-.image img {
-  height: 50%;
-  width: 50%;
-  position: absolute;
-  bottom: 8rem;
-  right: 23%;
-  transform: translateX(20%);
-}
-
-h4 {
-  font-size: 30px;
-  letter-spacing: 2px;
-}
-
-h1 {
-  font-size: 40px;
-  margin: 20px 0px 20px;
-}
-
-h3 {
-  font-size: 15px;
-  width: 550px;
+.proposisi img {
+  width: 38%;
+  height: 38%;
 }
 
 .about {
