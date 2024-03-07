@@ -89,13 +89,6 @@ nav {
   background-color: #806444;
 }
 
-.logo {
-  color: white;
-  font-size: 25px;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-
 nav ul li {
   list-style-type: none;
   display: inline-block;
@@ -190,26 +183,29 @@ nav ul li a:hover {
 }
 
 .containerfooter {
-  padding-top: 1rem;
+  padding: 3rem 0rem;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   width: 100%;
   background-color: #806444;
   list-style-type: none;
-}
-
-.markup {
-  padding-top: 2rem;
+  color: white;
 }
 .containerfooter .alamat {
   width: 25%;
 }
-
-footer h3 {
-  margin-top: 0;
+.containerfooter .alamat {
+  width: 25%;
+}
+.containerfooter .kontak, .containerfooter .sosial-media {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.container-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
-footer p {
-  margin: 5px 0;
-}
