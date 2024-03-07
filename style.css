@@ -15,11 +15,15 @@
   font-weight: 900;
   letter-spacing: 0.1rem;
   color: #eaeaea;
+  width: 60;
+  padding-top: 0.5rem;
+  margin-left: 0.5rem;
 }
 .brand span {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #DFA878;
+
+  color: #dfa878;
 }
 
 .hero {
@@ -147,20 +151,12 @@ nav ul li a:hover {
   letter-spacing: 0.1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #DFA878;
+  color: #dfa878;
 }
 .proposisi img {
   width: 40%;
   height: 100%;
   border-radius: 12px;
-}
-
-footer {
-  padding: 3rem 7rem;
-  background-color: #806444;
-  color: white;
-  display: flex;
-  row-gap: 3rem;
 }
 
 .grid-container {
@@ -193,25 +189,27 @@ footer {
   padding-bottom: 10px;
 }
 
-.footernav {
-  margin: 30px 0;
-}
-
-.footernav ul {
+.containerfooter {
+  padding-top: 1rem;
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #806444;
   list-style-type: none;
-  justify-content: center;
 }
 
-.footernav ul li a {
-  color: white;
-  margin: 20px;
-
-  font-size: 1.3em;
-  opacity: 0.7;
-  transition: 0.5s;
+.markup {
+  padding-top: 2rem;
+}
+.containerfooter .alamat {
+  width: 25%;
 }
 
-.footernav ul li a:hover {
-  opacity: 1;
+footer h3 {
+  margin-top: 0;
+}
+
+footer p {
+  margin: 5px 0;
 }
