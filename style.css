@@ -13,11 +13,13 @@
 .brand {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
+  letter-spacing: 0.1rem;
+  color: #eaeaea;
 }
 .brand span {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #561c24;
+  color: #DFA878;
 }
 
 .hero {
@@ -57,7 +59,14 @@
 }
 .content .text {
   line-height: 1.6rem;
+  margin-top: 0.8rem;
   margin-bottom: 0.8rem;
+  max-width: 48rem;
+  font-weight: 500;
+  color: #eaeaea;
+}
+.content .text span {
+  font-weight: bold;
 }
 
 .button-primary {
@@ -88,6 +97,7 @@ nav ul li {
   display: inline-block;
   padding: 10px 25px;
   font-weight: bold;
+  color: #eaeaea;
 }
 
 nav ul li a {
@@ -118,98 +128,39 @@ nav ul li a:hover {
 .proposisi .row .container-text .text {
   margin-top: 2rem;
   color: #eaeaea;
-  letter-spacing: 0.08rem;
+  max-width: 90%;
+  letter-spacing: 0.01rem;
   line-height: 1.6rem;
 }
 .proposisi .row .title {
   font-weight: bold;
   font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
+  color: white;
 }
 .proposisi .row .title span {
   font-weight: bold;
   font-size: 1.5rem;
+  letter-spacing: 0.1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #561c24;
+  color: #DFA878;
 }
 .proposisi img {
   width: 40%;
   height: 100%;
-  border-radius: 4px;
-}
-
-.about {
-  width: 100%;
-  padding: 100px 0;
-  background-color: white;
-}
-
-.about-me {
-  width: 1130%;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.about-me img {
-  height: auto;
-  width: 430px;
-  border-radius: 10px;
-}
-
-.about-text {
-  width: 550px;
-}
-
-.about-text h2 {
-  color: white;
-  font-size: 65px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  border-bottom: 1px solid red;
-}
-
-.about-text p {
-  color: #fcfc;
-  letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 18px;
-  margin-bottom: 45px;
-  text-align: justify;
+  border-radius: 12px;
 }
 
 footer {
-  padding: 1px;
-  background-color: #34495e;
+  padding: 3rem 7rem;
+  background-color: #806444;
   color: white;
-}
-
-.icon {
   display: flex;
-  justify-content: center;
-}
-
-.icon a {
-  text-decoration: none;
-  padding: 10px;
-  background-color: white;
-  margin: 10px;
-  border-radius: 50%;
-}
-
-.icon a i {
-  font-size: 2em;
-  color: orange;
-  opacity: 0.9;
-}
-
-.icon a:hover i {
-  color: white;
-  transition: 0.5s;
+  row-gap: 3rem;
 }
 
 .grid-container {
@@ -240,66 +191,6 @@ footer {
 .gridhead1 h5 {
   font-size: 20px;
   padding-bottom: 10px;
-}
-
-.boxmodel {
-  padding: 5rem;
-  background-color: #866363;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box {
-  margin-right: 1px;
-  padding-right: 7rem;
-  width: 700px;
-  height: 300px;
-  background-color: #505050;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 12px;
-}
-
-.boxtext h2 {
-  padding-left: 5px;
-  padding-top: 2rem;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-}
-
-.boxtext p {
-  padding-left: 7px;
-  width: 75%;
-  color: rgba(255, 255, 255, 0.8);
-  letter-spacing: 1px;
-  line-height: 28px;
-  font-size: 18px;
-  margin-bottom: 45px;
-  text-align: justify;
-}
-
-.button {
-  padding: 10px 20px;
-  background-color: #00ff15;
-  color: rgb(0, 0, 0);
-  border: none;
-  border-radius: 4px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button:hover {
-  opacity: 0.7;
-  transition: 0.5s;
 }
 
 .footernav {
